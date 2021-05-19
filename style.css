@@ -183,11 +183,11 @@ h3 {
 
 .about {
     display: flex;
-/*     justify-content: space-around; */
+    justify-content: space-around;
     padding: 80px;
     background-color: whitesmoke;
     /* height: 110vh; */
-    flex-direction:column;
+/*     flex-direction:column; */
     text-align: center;
     align-items:center;
 }
@@ -214,21 +214,32 @@ h3 {
     display: flex;
     font-size: 25px;
     font-weight: 200;
+    padding-right:80px;
 }
+
+@media only screen and (max-width: 1000px) {
+     .about {
+        /* align-items: center; */
+        /* display:inline-flex; */
+        display: flex;
+        flex-wrap: wrap;  
+        flex-direction:column;
+    }
+    
+    .bio {
+        font-size:15px;
+        margin-right: -30px;
+        margin-left:-30px;
+        padding-right:0px;
+    }
+    
+    
 
 @media only screen and (max-width: 800px) {
     /* .my-photo-container {
         align-items: center;
         flex-wrap: wrap;
     } */
-
-    .about {
-/*         align-items: center;
-        display:inline-flex; */
-        flex-wrap: wrap;
-        display: flex; 
-        flex-direction:column;
-    }
     
     .my-photo {
         width: 200px;
