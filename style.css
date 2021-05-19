@@ -177,7 +177,8 @@ h3 {
     font-size: 50px;
 /*     margin-left: 50px; */
     color: black;
-    padding-left:50px;
+/*     padding-left:50px; */
+    text-align:center;
 }
 
 .about {
@@ -186,8 +187,9 @@ h3 {
     padding: 80px;
     background-color: whitesmoke;
     /* height: 110vh; */
-    flex-direction:row;
+    flex-direction:column;
     text-align: center;
+    align-items:center;
 }
 
 .my-photo-container {
@@ -202,9 +204,9 @@ h3 {
    
 }
 
-.info {
+/* .info {
     padding-right: 100px;
-}
+} */
 
 .bio {
     font-style: normal;
@@ -241,10 +243,10 @@ h3 {
 
 /* Projects Section on Homepage*/
 
-.project-title {
+/* .project-title {
     text-align: center;
     padding-right: 40px;
-}
+} */
 
 .project-sec {
     display: flex;
