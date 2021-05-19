@@ -606,6 +606,13 @@ hr {
     height:200px;
 }
 
+.notable-work {
+    font-size: 20px; 
+    font-style:normal; 
+    line-height:1.5;
+    letter-spacing:1px;
+}
+
 @media only screen and (max-width: 1000px) {
     .video-container {
         display: flex;
@@ -622,8 +629,15 @@ hr {
         height: 400px;
         margin: 10px;
     }
+    
+     .notable-work {
+        font-size:15px;
+        margin-left:-30px;
+        margin-right:-30px;
+    }
         
 }
+
 
 /* Digital & Fine Arts Section */
 
