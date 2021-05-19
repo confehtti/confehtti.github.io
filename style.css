@@ -323,16 +323,19 @@ h3 {
 
 
 .form {
-    justify-content: space-around;
+/*     justify-content: space-around; */
     height: 260px;
     width: 370px;
     background-color: #E94E36;
+    align-items:center;
+    display:flex;
+    justify-content:center;
 }
 
-.form-layout {
+/* .form-layout {
     justify-content: center;
     margin: 40;
-}
+} */
 
 .input {
     padding-right: 200px;
@@ -356,10 +359,13 @@ h3 {
     }
 
     .form {
-        justify-content: space-around;
+/*         justify-content: space-around; */
         height: 260px;
         width: 300px;
         background-color: #E94E36;
+        align-items:center;
+        display:flex;
+        justify-content:center;
     }
 
     .input {
