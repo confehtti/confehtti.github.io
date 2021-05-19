@@ -742,6 +742,19 @@ hr {
    
 }
 
+.large-docs {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .large-docs {
+        display:inline;
+        text-decoration:none;
+        color:#E94E36;
+    }
+}
+
+
 /* Modal*/
 
 .modal-container {
