@@ -175,9 +175,11 @@ p {
 
 h3 {
     font-size: 50px;
-    margin-left: 50px;
+/*     margin-left: 50px; */
     color: black;
+    padding-left:50px;
 }
+
 .about {
     display: flex;
 /*     justify-content: space-around; */
