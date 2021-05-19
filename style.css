@@ -180,16 +180,18 @@ h3 {
 }
 .about {
     display: flex;
-    justify-content: space-around;
+/*     justify-content: space-around; */
     padding: 80px;
     background-color: whitesmoke;
     /* height: 110vh; */
+    flex-direction:row;
+    text-align: center;
 }
 
 .my-photo-container {
     display: flex; 
     align-items: center;
-    padding-right: 50px;
+/*     padding-right: 50px; */
     padding-top: 50px;
 }
 .my-photo {
@@ -210,17 +212,29 @@ h3 {
     font-weight: 200;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     /* .my-photo-container {
         align-items: center;
         flex-wrap: wrap;
     } */
 
     .about {
-        align-items: center;
-        display:inline-flex;
+/*         align-items: center;
+        display:inline-flex; */
         flex-wrap: wrap;
+        display: flex; 
+        flex-direction:column;
     }
+    
+    .my-photo {
+        width: 200px;
+    }
+
+    /* .info {
+        align-items: center;
+        justify-content:center;
+        text-align:center;
+    } */
 }
 
 /* Projects Section on Homepage*/
