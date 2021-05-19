@@ -758,15 +758,27 @@ hr {
     opacity: 1;
 }
 
-.modal-test {
+@media only screen and (max-width: 900px) {
+    .modal-container {
+        visibility: hidden;
+        display:none;
+    }
+
+    .close-modal-button {
+        visibility:hidden;
+        display:none;
+    }
+}
+
+/* .modal-test {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     margin:0;
 }
-
-.modal-button {
+ */
+/* .modal-button {
     background-color: coral;
     color: black;
     border: 0;
@@ -775,8 +787,8 @@ hr {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-size: 14px;
 }
-
-.modal {
+ */
+/* .modal {
     background-color: white;
     width: 600px;
     max-width: 100%;
@@ -784,15 +796,15 @@ hr {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
-}
+} */
 
-.modal h3 {
+/* .modal h3 {
     margin: 0;
 }
 
 .modal p {
     opacity: 0.6;
-}
+} */
 
 .modal-image {
     /* display: flex;
