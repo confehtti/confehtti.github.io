@@ -345,6 +345,32 @@ h3 {
     padding-left: 300px;
 }
 
+@media only screen and (max-width: 700px) {
+    .contact-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .form {
+        justify-content: space-around;
+        height: 260px;
+        width: 300px;
+        background-color: #E94E36;
+    }
+
+    .input {
+        padding-right: 128px;
+    }
+
+    .linkedin { 
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding-left:0;
+        margin:20px;
+    }
+}
+
 /* hamburger */
 
 .hamburger {
