@@ -301,8 +301,9 @@ h3 {
 
 
 .contact-area {
-    display: flex;
-    height: 100%;
+/*     display: flex;
+    height: 100%; */
+    height:70vh;
     align-items: center;
     justify-content: center;
 }
@@ -311,29 +312,33 @@ h3 {
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
+    text-align:center;
 }
 
 .contact-text {
     margin-left: 40px;
     margin-bottom: 200px;
     padding-top: 40px;
+    text-align:center;
 }
 
 
 .form {
 /*     justify-content: space-around; */
-    height: 260px;
+/*     height: 260px;
     width: 370px;
-    background-color: #E94E36;
+    background-color: #E94E36; */
     align-items:center;
     display:flex;
     justify-content:center;
 }
 
-/* .form-layout {
-    justify-content: center;
-    margin: 40;
-} */
+.form-layout {
+/*     justify-content: center;
+    margin: 40; */
+    height: 260px;
+    width: 370px;
+}
 
 .input {
     padding-right: 200px;
@@ -360,7 +365,7 @@ h3 {
 /*         justify-content: space-around; */
         height: 260px;
         width: 300px;
-        background-color: #E94E36;
+/*         background-color: #E94E36; */
         align-items:center;
         display:flex;
         justify-content:center;
