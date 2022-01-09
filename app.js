@@ -134,3 +134,15 @@ close_art_two.addEventListener('click', () => {
     modal_art_container_two.classList.remove('show')
 })
 
+// project 3
+const open_art_three = document.getElementById('open_art_three')
+const modal_art_container_three = document.getElementById('modal_art_container_three')
+const close_art_three = document.getElementById('close_art_three')
+
+open_art_three.addEventListener('click', () => {
+    modal_art_container_three.classList.add('show')
+})
+
+close_art_three.addEventListener('click', () => {
+    modal_art_container_three.classList.remove('show')
+})

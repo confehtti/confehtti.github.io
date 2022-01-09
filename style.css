@@ -497,6 +497,14 @@ footer p {
     padding-top: 10px;
 }
 
+.project-inner-link {
+    color: #E94E36;
+} 
+
+.project-inner-link:hover {
+    color:black;
+}
+
 /* Graphic Design Section */
 
 /* .graphics {
