@@ -105,6 +105,42 @@ close_graphic_seven.addEventListener('click', () => {
     modal_graphic_container_seven.classList.remove('show')
 })
 
+const open_graphic_eight = document.getElementById('open_graphic_eight')
+const modal_graphic_container_eight = document.getElementById('modal_graphic_container_eight')
+const close_graphic_eight = document.getElementById('close_graphic_eight')
+
+open_graphic_eight.addEventListener('click', () => {
+    modal_graphic_container_eight.classList.add('show')
+})
+
+close_graphic_eight.addEventListener('click', () => {
+    modal_graphic_container_eight.classList.remove('show')
+})
+
+const open_graphic_nine = document.getElementById('open_graphic_nine')
+const modal_graphic_container_nine = document.getElementById('modal_graphic_container_nine')
+const close_graphic_nine = document.getElementById('close_graphic_nine')
+
+open_graphic_nine.addEventListener('click', () => {
+    modal_graphic_container_nine.classList.add('show')
+})
+
+close_graphic_nine.addEventListener('click', () => {
+    modal_graphic_container_nine.classList.remove('show')
+})
+
+const open_graphic_ten = document.getElementById('open_graphic_ten')
+const modal_graphic_container_ten = document.getElementById('modal_graphic_container_ten')
+const close_graphic_ten = document.getElementById('close_graphic_ten')
+
+open_graphic_ten.addEventListener('click', () => {
+    modal_graphic_container_ten.classList.add('show')
+})
+
+close_graphic_ten.addEventListener('click', () => {
+    modal_graphic_container_ten.classList.remove('show')
+})
+
 
 //-------Fine Art & Digital Modals--------------
 
