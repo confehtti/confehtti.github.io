@@ -498,6 +498,7 @@ footer p {
 }
 
 .project-inner-link {
+    text-decoration: none;
     color: #E94E36;
 } 
 
