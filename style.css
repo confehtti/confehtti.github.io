@@ -15,6 +15,37 @@ section {
     font-size: 40px;
 }
 
+/* display: flex;
+height: 100%;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
+
+.home-text {
+margin-left: 40px;
+margin-bottom: 200px; */
+
+.update {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    /* width: 50px; */
+    height: 100px;
+    /* border: 1px solid blue; */
+    /* background-color: red; */
+    margin-top: 100px;
+}
+
+.update p {
+    color: black;
+    text-align: center;
+    /* padding-top: 20px; */
+    margin-left: 50px;
+    color:#E94E36;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -153,13 +184,13 @@ p {
     height: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    /* margin-top: 10px; */
 }
 
 .home-text {
     margin-left: 40px;
     margin-bottom: 200px;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .socials {
